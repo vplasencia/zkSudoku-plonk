@@ -1,4 +1,4 @@
-const GITHUB_LINK = "";
+const GITHUB_LINK = "https://github.com/vplasencia/zkSudoku-plonk";
 
 export default function ViewSourceCode() {
   return (
