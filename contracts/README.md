@@ -21,6 +21,8 @@ npx hardhat test
 
 When you run tests you will see something like this:
 
+![RunTestsPlonk](https://user-images.githubusercontent.com/52170174/172546514-e47e6e3e-9db5-4d33-ae6d-1ffeb158e860.png)
+
 ## Deploy on [Harmony Testnet](https://explorer.pops.one/)
 
 Create a `.env` file and add to it:
