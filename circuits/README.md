@@ -27,3 +27,13 @@ And after that, you can always run:
 ```bash
 ./executePlonk.sh
 ```
+
+## Run tests
+
+```bash
+yarn test
+```
+
+When you run tests you will see something like this:
+
+![CircuitsTestPlonk](https://user-images.githubusercontent.com/52170174/172547848-e0006250-bcde-4bb3-9f48-68053a7b1387.png)
