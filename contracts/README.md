@@ -40,3 +40,5 @@ npx hardhat run scripts/deploy.js --network sepolia
 ```
 
 ## zkSudoku contracts graph
+
+![zkSudoku](https://user-images.githubusercontent.com/52170174/234151985-16eacafb-3478-4344-8d70-1f5894e76c70.svg)
