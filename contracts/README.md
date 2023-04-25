@@ -23,7 +23,7 @@ When you run tests you will see something like this:
 
 ![RunTestsPlonk](https://user-images.githubusercontent.com/52170174/172546514-e47e6e3e-9db5-4d33-ae6d-1ffeb158e860.png)
 
-## Deploy on [Harmony Testnet](https://explorer.pops.one/)
+## Deploy on [Sepolia](https://sepolia.etherscan.io/)
 
 Create a `.env` file and add to it:
 
@@ -33,26 +33,10 @@ PRIVATE_KEY=<yourPrivateKey>
 
 where `yourPrivateKey` is the private key of your wallet.
 
-To deploy on Harmony Testnet run:
+To deploy on Sepolia run:
 
 ```bash
-npx hardhat run scripts/deploy.js --network harmonyTestnet
-```
-
-## Deploy on [Harmony Mainnet](https://explorer.harmony.one/)
-
-Create a `.env` file and add to it:
-
-```text
-PRIVATE_KEY=<yourPrivateKey>
-```
-
-where `yourPrivateKey` is the private key of your wallet.
-
-To deploy on Harmony Mainnet run:
-
-```bash
-npx hardhat run scripts/deploy.js --network harmonyMainnet
+npx hardhat run scripts/deploy.js --network sepolia
 ```
 
 ## zkSudoku contracts graph
